@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+ 
+}
+
+h1{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.style{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.ri-user-3-line{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.ri-graduation-cap-line{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.ri-tools-fill{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.ri-briefcase-line{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.ri-contacts-line{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
