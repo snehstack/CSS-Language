@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    font-family: Arial;
+    color: white;
+    height: 250px;
+    width: 350px;
+    background-color: grey;
+    padding: 30px 20px 30px 20px;
+    margin: 15px 30px 15px 30px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.box1 {
+    font-family: Arial;
+    color: white;
+    height: 250px;
+    width: 350px;
+    background-color: grey;
+    padding: 30px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 25px;
+}
