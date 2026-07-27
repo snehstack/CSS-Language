@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+
+.container{
+    width:75%;
+    margin:auto;
+}
+
+/* Article Card */
+.article{
+    background:#ffffff;
+    border:3px solid black;
+    border-radius:8px;
+    padding:18px;
+    margin-bottom:18px;
+
+}
+
+
+
+/* Alternate Background */
+.article:nth-child(odd){
+    background:#fafafa;
+}
+
+.article:nth-child(even){
+    background:#f5fbff;
+}
+
+/* Heading */
+h2{
+    text-align:center;
+    color:#333;
+    margin-bottom:18px;
+}
+
+/* First Letter */
+h2::first-letter{
+    color:tomato;
+    font-size:55px;
+    font-weight:bold;
+    
+}
+
+/* Paragraph */
+p>{
+    font-size:15px;
+    color:#444;
+}
+
+/* Selected Text */
+::selection{
+    background:#fff3a0;
+    color:black;
+}
+
+/* First Paragraph */
+.article p:first-child{
+    color:blue;
+}
+
+/* First Paragraph After Heading */
+.article h2,p{
+    color:#555;
+}
+
+/* Last Paragraph */
+.article p:last-of-type{
+    font-style:italic;
+}
+
+/* Comments */
+.comment{
+    margin-top:15px;
+    padding:10px;
+    background:#cdeec4;
+    border-left:5px solid green;
+    font-weight:bold;
+    
+}
+
+/* Alternate Comment Background */
+.article:nth-child(even) .comment{
+    background:#d8f3ff;
+    
+}
+
+/* Last Article */
+.article:last-child{
+    border:2px solid #666;
+}
+

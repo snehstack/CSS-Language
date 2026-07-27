@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 12px auto;
+    border: 3px solid #000;
+    background: #fff;
+}
+
+/* Parallax Section */
+.parallax{
+    height: 250px;
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.parallax h2{
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Common Section */
+.section{
+    height: 170px;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+}
+
+/* Linear Gradient */
+.linear{
+    background: linear-gradient(to right,#ffa95e,#ff5d72);
+}
+
+/* Radial Gradient */
+.radial{
+    background: radial-gradient(circle,#3f66ad,#274b8d,#203d79);
+}
+
+/* Conic Gradient */
+.conic{
+    background: conic-gradient(
+        orange,
+        red,
+        purple,
+        orange
+    );
+}
+
+/* Highlight Text */
+.text-box{
+    padding: 10px;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    font-size: 13px;
+}
+
+.highlight{
+    background: yellow;
+    font-weight: bold;
+}
+
+/* Parent Box */
+.parent{
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.parent h3{
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.parent p{
+    color: gray;
+    font-size: 13px;
+}

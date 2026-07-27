@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before & After</title>
+
+     <style>
+        h1:after{
+
+            content: " Read this - Demo of After"
+        }
+        p::before {
+            content: "Read this - ";
+        }
+        
+        .box{
+
+          height: 25px;
+          width: 25px;
+          border-radius: 50%;
+          background-color: blueviolet;
+          margin-bottom: 0;
+        }
+        button{
+
+            font-size:large;
+            border-radius: 15px;
+            padding: 10px 10px;
+            cursor: pointer;
+            font
+        }
+
+        button:hover{
+             background-color: aqua;
+             
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>1.</h1>
+
+
+    <p>Hello World</p>
+
+    <div class="box"></div>
+
+
+    <button>Click Me</button>
+
+
+</html>
+</body>
+</html>
