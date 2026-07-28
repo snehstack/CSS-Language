@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     text-align: center;
  
@@ -30,4 +31,38 @@ h3{
 p{
     font-size: 18px;
     line-height: 30px;
+=======
+body{
+    text-align: center;
+ 
+}
+
+.resume{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.style{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+>>>>>>> d09e51c02f4243040797370c1f9237941baf69f3
 }
