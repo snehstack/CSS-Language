@@ -62,7 +62,7 @@ Add this inside the <head> of your HTML file:
 >
 
 screenshot
-<img src="output/screenshot.png" ></i>
+<img src="output/output.png" ></i>
 
 Example play icon:
 
