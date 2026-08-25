@@ -61,8 +61,8 @@ Add this inside the <head> of your HTML file:
     rel="stylesheet"
 >
 
-screenshot
-<img src="output/output.png">
+##screenshot
+![Home Page](Output/output.png)
 
 Example play icon:
 
