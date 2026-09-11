@@ -7,17 +7,7 @@ The project focuses on **responsive web design, modern UI, CSS Grid, Flexbox, pr
 
 ## 📸 Screenshots
 
-### 🖥️ Desktop View
-
-<img href="Output/image/screenshot">
-
-### 💻 Tablet View
-
 ![Digi Tech Desktop](Output/image/screenshot.png)
-
-### 📱 Mobile View
-
-![Digi Tech Mobile](Assets/screenshots/mobile.png)
 
 ---
 
