@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Website</title>
+
+   
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+  
+    <header>
+
+        <div class="header-top">
+            <div class="main-container">
+
+                <div class="brand-logo">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Tech</h2>
+                </div>
+
+                <div class="search-area">
+                    <input type="text" placeholder="Search for anything">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="header-actions">
+                    <i class="fa-regular fa-user"></i>
+
+                    <div class="header-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>0</span>
+                    </div>
+
+                    <div class="header-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span>0</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+
+            <div class="main-container">
+
+                <div class="category-button">
+                    <i class="fa-solid fa-grip"></i>
+                    <span>All Categories</span>
+                </div>
+
+                <nav class="navigation">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Products
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <div class="special-offer">
+                    <i class="fa-regular fa-star"></i>
+                    <span>UP TO <b>60%</b> off All Items</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        
+        <section class="banner-section">
+            <div class="main-container">
+
+                <div class="banner-grid">
+
+                    <div class="main-banner">
+
+                        <div class="banner-content">
+                            <h1>
+                                Apple HomePod <br>
+                                2nd Gen Speaker
+                            </h1>
+
+                            <p>
+                                Apple ecosystem and provide high-quality audio
+                                playback while also serving as a hub for
+                                controlling smart home devices.
+                            </p>
+
+                            <a href="#" class="banner-button">
+                                Shop Now →
+                            </a>
+                        </div>
+
+                        <div class="banner-image">
+                            <img src="Assets/image/Apple-HomePod.webp" alt="HomePod">
+                        </div>
+
+                        <div class="slider-dots">
+                            <span class="dot-active"></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="watch-banner">
+
+                        <div class="watch-content">
+                            <h2>
+                                Explore <br>
+                                Apple Watch
+                            </h2>
+
+                            <a href="">Shop Now →</a>
+                        </div>
+
+                        <div class="watch-image">
+                            <img src="Assets/image/Apple-Watch.png" alt="Watch">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="small-banners">
+
+                    <div class="small-banner orange-banner">
+
+                        <div class="small-banner-content">
+                            <h3>
+                                Samsung <br>
+                                Gear Camera
+                            </h3>
+
+                            <a href="">Shop Now →</a>
+                        </div>
+
+                        <div class="small-banner-image">
+                            <img src="Assets/image/Samsung-Gear-Camera.png"
+                                alt="Camera">
+                        </div>
+
+                    </div>
+
+
+                    <div class="small-banner green-banner">
+
+                        <div class="small-banner-content">
+                            <h3>
+                                Beats Studio <br>
+                                Buds
+                            </h3>
+
+                            <a href="">Shop Now →</a>
+                        </div>
+
+                        <div class="small-banner-image">
+                            <img src="Assets/image/Beats-Studio-Buds.png"
+                                alt="Buds">
+                        </div>
+
+                    </div>
+
+
+                    <div class="small-banner black-banner">
+
+                        <div class="small-banner-content">
+                            <h3>Hero Camera</h3>
+
+                            <a href="">Shop Now →</a>
+                        </div>
+
+                        <div class="small-banner-image">
+                            <img src="Assets/image/Hero-Camera.png"
+                                alt="Hero Camera">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+      
+        <section class="products-section">
+
+            <div class="main-container">
+
+                <div class="products-heading">
+                    <h2>Trending Products</h2>
+                </div>
+
+
+                <!-- Product Filters -->
+                <input type="radio" name="filter" id="all-products" checked hidden>
+                <input type="radio" name="filter" id="mobile-products" hidden>
+                <input type="radio" name="filter" id="watch-products" hidden>
+                <input type="radio" name="filter" id="camera-products" hidden>
+                <input type="radio" name="filter" id="accessory-products" hidden>
+                <input type="radio" name="filter" id="speaker-products" hidden>
+
+
+                <div class="category-menu">
+
+                    <label for="all-products">All</label>
+                    <label for="mobile-products">Mobile</label>
+                    <label for="watch-products">Watch</label>
+                    <label for="camera-products">Camera</label>
+                    <label for="accessory-products">Accessories</label>
+                    <label for="speaker-products">Speaker</label>
+
+                </div>
+
+
+            
+                <div class="items-grid">
+
+                    <!-- MOBILE -->
+
+                    <div class="item-card mobile-item">
+                        <img src="Assets/image/mobile-1.png"
+                            alt="Mobile Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Galaxy S26 Ultra</h4>
+
+                        <h5>$999</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                    <div class="item-card mobile-item">
+                        <img src="Assets/image/mobile-2.webp"
+                            alt="Mobile Image">
+
+                        <p>In Stock</p>
+
+                        <h4>iPhone 16 Pro</h4>
+
+                        <h5>$1199</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                  
+
+                    <div class="item-card watch-item">
+                        <img src="Assets/image/watch-1.png"
+                            alt="Watch Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Apple Watch Ultra</h4>
+
+                        <h5>$699</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                    <div class="item-card watch-item">
+                        <img src="Assets/image/watch-2.jpeg"
+                            alt="Watch Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Galaxy Watch 6</h4>
+
+                        <h5>$499</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                    <div class="item-card camera-item">
+                        <img src="Assets/image/camera-1.png"
+                            alt="Camera Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Canon DSLR</h4>
+
+                        <h5>$850</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                    <div class="item-card camera-item">
+                        <img src="Assets/image/camera-2.png"
+                            alt="Camera Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Sony Alpha</h4>
+
+                        <h5>$950</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                   
+
+                    <div class="item-card accessory-item">
+                        <img src="Assets/image/accessories-1.png"
+                            alt="Accessories Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Wireless Charger</h4>
+
+                        <h5>$49</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                    <div class="item-card accessory-item">
+                        <img src="Assets/image/accessories-2.png"
+                            alt="Accessories Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Power Bank</h4>
+
+                        <h5>$79</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+              
+
+                    <div class="item-card speaker-item">
+                        <img src="Assets/image/speaker-1.png"
+                            alt="Speaker Image">
+
+                        <p>In Stock</p>
+
+                        <h4>Apple HomePod</h4>
+
+                        <h5>$299</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+
+                    <div class="item-card speaker-item">
+                        <img src="Assets/image/speaker-2.png"
+                            alt="Speaker Image">
+
+                        <p>In Stock</p>
+
+                        <h4>JBL Charge 5</h4>
+
+                        <h5>$199</h5>
+
+                        <span>★★★★★ (5)</span>
+
+                        <a href="#">Order Now</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="site-footer">
+
+        <div class="main-container">
+
+            <div class="footer-row">
+
+
+                <!-- Footer About -->
+                <div class="footer-column">
+
+                    <h2>Digi Tech</h2>
+
+                    <p>
+                        Discover the latest gadgets, electronics,
+                        and accessories with the best quality and
+                        affordable prices.
+                    </p>
+
+                    <div class="social-links">
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+             
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+               
+                <div class="footer-column">
+
+                    <h3>Customer Support</h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="#">FAQs</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Shipping Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Return Policy</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+               
+                <div class="footer-column">
+
+                    <h3>Contact Info</h3>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Surat, Gujarat, India
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        +91 98765 43210
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        digitech@gmail.com
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-clock"></i>
+                        Mon - Sat : 9AM - 7PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-copyright">
+
+                <p>
+                    © 2026 Digi Tech. All Rights Reserved |
+                    Designed By SnehPatel.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
