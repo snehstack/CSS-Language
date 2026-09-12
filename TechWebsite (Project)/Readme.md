@@ -5,6 +5,8 @@ A modern and responsive **electronics e-commerce website** built using **HTML5 a
 The project focuses on **responsive web design, modern UI, CSS Grid, Flexbox, product filtering, promotional banners, hover effects, and mobile-friendly layouts**.
 ---
 
+
+
 ## 📸 Screenshots
 
 ![Digi Tech Desktop](Output/image/screenshot.png)
@@ -296,27 +298,7 @@ CSS selectors then control which products are visible.
 
 ---
 
-## 🔮 Future Improvements
 
-The following features can be added in future versions:
-
-* [ ] Functional search bar
-* [ ] JavaScript shopping cart
-* [ ] Wishlist functionality
-* [ ] Product details page
-* [ ] Product sorting
-* [ ] Price filtering
-* [ ] User authentication
-* [ ] Checkout page
-* [ ] Payment gateway
-* [ ] Backend integration
-* [ ] Database integration
-* [ ] Product API
-* [ ] Dark mode
-* [ ] Admin dashboard
-* [ ] User reviews and ratings
-
----
 
 ## 📚 What I Learned
 
