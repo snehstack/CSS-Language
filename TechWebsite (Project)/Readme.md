@@ -15,7 +15,7 @@ The project focuses on **responsive web design, modern UI, CSS Grid, Flexbox, pr
 
 ### Website Walkthrough
 
-[![Digi Tech Website Demo](Assets/screenshots/video-thumbnail.png)](https://your-video-link.com)
+[![Digi Tech Website Demo](Output/video/website video.mp4)]
 
 > 🎬 The video demonstrates the website layout, navigation, promotional banners, product filtering, product cards, hover effects, and responsive design.
 
