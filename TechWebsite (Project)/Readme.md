@@ -342,9 +342,9 @@ Designed and developed with ❤️ using **HTML5 & CSS3**.
 
 ## 📄 License
 
-This project is created for **learning, practice, and portfolio purposes**.
+This project is licensed under the [MIT License](https://github.com/snehstack/MIT-Licence)
 
-You are free to use and modify the code for educational and personal projects.
+
 
 ---
 
