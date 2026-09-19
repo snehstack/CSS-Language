@@ -7,28 +7,15 @@ Project Type: Front-End Development
 Technologies: HTML5 • CSS3 • Font Awesome • Google Fonts
 Responsive: Mobile • Tablet • Laptop • Desktop
 
-📸 Website Preview
+## Screenshot
 
-Desktop View
+![Coffee Website Screenshot](output/image/screenshot.png)
+
+## 🎥 Website video
+
+https://github.com/user-attachments/assets/271385a5-19a3-4a94-a550-19cb632c84fb
 
 
-
-Note: Place your website screenshot at:
-assets/images/screenshot.png
-
-🎥 Website Demo
-
-Project Video
-
-▶️ Watch Website Demo
-
-Replace YOUR_VIDEO_LINK with your GitHub video, Google Drive, YouTube, or other hosted demo link.
-
-If you prefer to keep the video inside the repository, you can use:
-
-## 🎥 Demo Video
-
-https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/assets/YOUR_VIDEO_ID
 
 ✨ Features
 
@@ -319,7 +306,7 @@ assets/images/
 
 The README will display it using:
 
-![Coffee Website Screenshot](output/image/screenshot.png)
+
 
 Recommended screenshot
 
