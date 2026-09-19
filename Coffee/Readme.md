@@ -324,29 +324,6 @@ Blogs
 
 Footer
 
-🎥 How to Add Your Video
-
-Option 1 — GitHub-hosted video
-
-Upload your video to the GitHub repository or GitHub release/assets and add the generated link:
-
-## 🎥 Website Demo
-
-[▶️ Watch Website Demo](YOUR_GITHUB_VIDEO_LINK)
-
-Option 2 — YouTube
-
-## 🎥 Website Demo
-
-[▶️ Watch on YouTube](YOUR_YOUTUBE_LINK)
-
-Option 3 — Google Drive
-
-## 🎥 Website Demo
-
-[▶️ Watch Project Video](YOUR_GOOGLE_DRIVE_LINK)
-
-Recommended video size: Keep the demo video reasonably compressed, preferably around 20–50 MB for a portfolio repository.
 
 🎨 Design Highlights
 
@@ -434,23 +411,9 @@ Tablet Support: ✅ Yes
 
 Desktop Support: ✅ Yes
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
-
-You are free to:
-
-Use the project
-
-Copy the project
-
-Modify the source code
-
-Distribute the project
-
-Use it for personal or commercial purposes
-
-See the LICENSE file for the complete license terms.
+This project is licensed under the [MIT License](https://github.com/snehstack/MIT-Licence)
 
 👨‍💻 Author
 
